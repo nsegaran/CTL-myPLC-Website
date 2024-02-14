@@ -1,11 +1,14 @@
+import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import Banner from './Banner'; // Import the Banner component
+import Categories from './Categories'; // Import the Banner component
 
 function App() {
   return (
     <div className="App">
+      <Banner /> {/* Include the Banner component here */}
+      <Categories /> {/* Include the Categories component here */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

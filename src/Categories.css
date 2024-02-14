@@ -1,0 +1,61 @@
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .category {
+    flex: 0 0 100%;
+    text-align: left;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: #ffffff; /* A nice shade of blue */
+    color: rgb(0, 110, 193); /* White text color for better contrast */
+    font-size: 1.5em; /* Larger font size for titles */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+
+
+  /* If you have specific titles you want to style, you can use a class or an element like h2 or h3 */
+  .category h3 {
+    margin: 0; /* Removes default margin */
+    padding-bottom: 0.5em; /* Space below the title */
+    font-weight: bold; /* Makes the font bold */
+  }
+
+  .category a {
+    display: block;
+    text-align: left; /* Aligns the link text to the left */
+    margin-top: 0.5em; /* Adds a little space above each link */
+    color: #00171f; /* Sets the color of the links to white or any color you wish */
+    text-decoration: none; /* Optional: removes the underline from links */
+  }
+  
+  .category a:hover {
+    text-decoration: underline; /* Optional: adds an underline on hover for better UI indication */
+  }
+  /* Medium screens (greater than or equal to 600px) */
+@media screen and (min-width: 600px) {
+  .category {
+    flex: 0 0 calc(50% - 20px); /* Half width - adjust the 20px gap as needed */
+  }
+}
+
+/* Large screens (greater than or equal to 1024px) */
+@media screen and (min-width: 1024px) {
+  .category {
+    flex: 0 0 calc(33.333% - 20px); /* One third width - adjust the 20px gap as needed */
+  }
+}
+
+/* Adjust the .categories-container if needed */
+.categories-container {
+  /* ... other styles ... */
+  gap: 10px; /* This is the gap between categories */
+}
+ 
