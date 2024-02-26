@@ -26,11 +26,10 @@
 }
 
 .subcategory-title {
-  font-size: 1.2em; /* Or the size you prefer */
+  font-size: 1.25em; /* Or the size you prefer */
   font-weight: normal; /* If you want the titles to be bold */
   /* Any additional styles you want to apply */
 }
-
 
 
 .category h3 {
