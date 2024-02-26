@@ -1,44 +1,59 @@
+/* Categories.css */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 .categories-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.category {
+  flex: 0 0 100%;
+  text-align: left;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: rgb(0, 110, 193);
+  font-size: 1em;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Apply the skinny appearance */
   
-  .category {
-    flex: 0 0 100%;
-    text-align: left;
-    padding: 10px;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-sizing: border-box;
-    background-color: #ffffff; /* A nice shade of blue */
-    color: rgb(0, 110, 193); /* White text color for better contrast */
-    font-size: 1.5em; /* Larger font size for titles */
-    border-radius: 5px; /* Optional: Adds rounded corners */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
-  }
-  
+}
+
+.subcategory-title {
+  font-size: 1.2em; /* Or the size you prefer */
+  font-weight: normal; /* If you want the titles to be bold */
+  /* Any additional styles you want to apply */
+}
 
 
-  /* If you have specific titles you want to style, you can use a class or an element like h2 or h3 */
-  .category h3 {
-    margin: 0; /* Removes default margin */
-    padding-bottom: 0.5em; /* Space below the title */
-    font-weight: bold; /* Makes the font bold */
-  }
 
-  .category a {
-    display: block;
-    text-align: left; /* Aligns the link text to the left */
-    margin-top: 0.5em; /* Adds a little space above each link */
-    color: #00171f; /* Sets the color of the links to white or any color you wish */
-    text-decoration: none; /* Optional: removes the underline from links */
-  }
-  
-  .category a:hover {
-    text-decoration: underline; /* Optional: adds an underline on hover for better UI indication */
-  }
+.category h3 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-weight: bold; /* Apply the skinny appearance to headers */
+  font-size: 1.5em;
+}
+
+.category a {
+  display: block;
+  text-align: left;
+  margin-top: 0.5em;
+  color: #00171f;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Apply the skinny appearance to links */
+}
+
+.category a:hover {
+  text-decoration: underline;
+}
   /* Medium screens (greater than or equal to 600px) */
 @media screen and (min-width: 600px) {
   .category {
