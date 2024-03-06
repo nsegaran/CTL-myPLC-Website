@@ -6,11 +6,11 @@ import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <div className="App">
-    <Analytics>
       <Banner /> {/* Include the Banner component here */}
       <Categories /> {/* Include the Categories component here */}
       <header className="App-header">
       </header>
+      <Analytics>
       </Analytics>
     </div>
   );
