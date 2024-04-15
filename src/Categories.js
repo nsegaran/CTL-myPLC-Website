@@ -37,6 +37,7 @@ const Categories = () => {
           <ul>
             <li><a href="https://docs.google.com/spreadsheets/d/1gH4CTuSxjaNiL7giZ2P4vAcXd55iuN_fAZjsc74Vdio/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Programming Tracker</a></li>
             <li><a href="https://docs.google.com/spreadsheets/d/1XQbqRqeSpESKJVtNABoQqdOVOuGyDeaowadH5PG_Jvw/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Summer PLC Status sheet</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/u/1/d/1JlTVqSUaarobexzDyH4R-riwYRgFwAIsc6e31dX20Fc/edit?usp=drive_web&ouid=114329283901639834089" target="_blank" rel="noopener noreferrer">PLCP Accounts & Login Information</a></li>
           </ul>
         </div>
       </div>
@@ -49,7 +50,8 @@ const Categories = () => {
       <li><a href="https://docs.google.com/document/d/1R48ybWWWbqXhOchjZIpX0DPdy9EQoWI4r-kRm9KqYiU/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Workshop, Study Hall, Studio Workflow/Checklist</a></li>
       <li><a href="https://docs.google.com/document/d/1ux0tWsRky_3zQQ5G2-nm6zsp0nb_VtwOLa0Q6gu-bMU/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Zoom Session Guidelines</a></li>
       <li><a href="https://docs.google.com/document/d/1PCvkrVlE_-FZMKwSvVHOE-ecHBI7ZBjz4LHJJHOb8jQ/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Description Bank - Workshops & Studios</a></li>
-    </ul>
+      <li><a href="https://docs.google.com/forms/d/18ymR61bhmQakmEjfPV9vXMU6Rc-fAp1iGN-WjAbTeSo/edit" target="_blank" rel="noopener noreferrer">Academic Skills Program Sign-In Form</a></li>
+      </ul>
   </div>
   <div className="subcategory">
           <div className="subcategory-title">Study Halls</div>
@@ -59,6 +61,7 @@ const Categories = () => {
       <li><a href="https://docs.google.com/presentation/d/1dNEQ86MyGZzuLRHCo5xeScPcYebfqmTLNnWp30fPr6M/edit?usp=share_link" target="_blank" rel="noopener noreferrer">In-Person Study Hall Slides</a></li>
       <li><a href="https://docs.google.com/document/d/1jKSocSP0Vy9ELsP3STCx0_5Na1YTWXNJXeLA-wsBsKE/edit?usp=share_link" target="_blank" rel="noopener noreferrer">SMART Goal Setting</a></li>
       <li><a href="https://docs.google.com/document/d/1ycxSZWVJGzYLo7Lzmr0plCWr7Wwj70K_nvxXK6x0sYc/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Study Hall Checklist</a></li>
+      <li><a href="https://docs.google.com/forms/d/1dCd3TaNtYsFbFRbkSV7-1ToNzUhkn_0oaLvyXGps14o/edit" target="_blank" rel="noopener noreferrer">Study Halls Feedback Form</a></li>
     </ul>
   </div>
   <div className="subcategory">
