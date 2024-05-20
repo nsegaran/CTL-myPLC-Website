@@ -57,7 +57,7 @@ const Categories = () => {
           <div className="subcategory-title">Study Halls</div>
           
     <ul>
-      <li><a href="https://drive.google.com/drive/folders/1Szaa2TsH_S3--8fMMbxT0V47JRVs5iOR?usp=drive_link" target="_blank" rel="noopener noreferrer">2023-2024 Study Hall Materials Folder</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Szaa2TsH_S3--8fMMbxT0V47JRVs5iOR?usp=drive_link" target="_blank" rel="noopener noreferrer">2023-24 Study Hall Materials</a></li>
       <li><a href="https://drive.google.com/drive/folders/1HyM40HhgDf7_MuL4dHn1p2Qp0rzeUOEo?usp=drive_link" target="_blank" rel="noopener noreferrer">In-Person Study Hall Slides</a></li>
       <li><a href="https://docs.google.com/document/d/1jKSocSP0Vy9ELsP3STCx0_5Na1YTWXNJXeLA-wsBsKE/edit?usp=share_link" target="_blank" rel="noopener noreferrer">SMART Goal Setting</a></li>
       <li><a href="https://docs.google.com/document/d/1ycxSZWVJGzYLo7Lzmr0plCWr7Wwj70K_nvxXK6x0sYc/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Study Hall Checklist</a></li>
