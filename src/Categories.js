@@ -1,5 +1,5 @@
 import React from 'react';
-import './Categories.css'; // Make sure to create a Categories.css file for styling
+import './Categories.css'; 
 
 const Categories = () => {
   return (
@@ -57,8 +57,8 @@ const Categories = () => {
           <div className="subcategory-title">Study Halls</div>
           
     <ul>
-      <li><a href="https://docs.google.com/spreadsheets/d/1qETCE8UmgNN5btWS4ptNldBsqRzeIhMQF0FzCCoWjEE/edit?usp=share_link" target="_blank" rel="noopener noreferrer">2023-2024 Study Halls</a></li>
-      <li><a href="https://docs.google.com/presentation/d/1dNEQ86MyGZzuLRHCo5xeScPcYebfqmTLNnWp30fPr6M/edit?usp=share_link" target="_blank" rel="noopener noreferrer">In-Person Study Hall Slides</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1Szaa2TsH_S3--8fMMbxT0V47JRVs5iOR?usp=drive_link" target="_blank" rel="noopener noreferrer">2023-2024 Study Hall Materials Folder</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1HyM40HhgDf7_MuL4dHn1p2Qp0rzeUOEo?usp=drive_link" target="_blank" rel="noopener noreferrer">In-Person Study Hall Slides</a></li>
       <li><a href="https://docs.google.com/document/d/1jKSocSP0Vy9ELsP3STCx0_5Na1YTWXNJXeLA-wsBsKE/edit?usp=share_link" target="_blank" rel="noopener noreferrer">SMART Goal Setting</a></li>
       <li><a href="https://docs.google.com/document/d/1ycxSZWVJGzYLo7Lzmr0plCWr7Wwj70K_nvxXK6x0sYc/edit?usp=share_link" target="_blank" rel="noopener noreferrer">Study Hall Checklist</a></li>
       <li><a href="https://docs.google.com/forms/d/1dCd3TaNtYsFbFRbkSV7-1ToNzUhkn_0oaLvyXGps14o/edit" target="_blank" rel="noopener noreferrer">Study Halls Feedback Form</a></li>
